@@ -130,18 +130,35 @@ img {
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 750px;
+    width: 750px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .container {
-    max-width: 470px;
+    width: 470px;
+  }
+
+  .lessons .col {
+    width: 80%;
+  }
+
+  .steps .col {
+    width: 80%;
   }
 
   .row {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
+  }
+
+  .why-us .col-left {
+    width: 100%;
+  }
+
+  .why-us .col-right {
+    width: 90%;
   }
 }
